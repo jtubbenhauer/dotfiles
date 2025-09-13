@@ -1,0 +1,98 @@
+[env]
+TERM = "xterm-256color"
+WINIT_X11_SCALE_FACTOR = "1"
+
+[window]
+dynamic_padding = true
+decorations = "full"
+opacity = 1
+decorations_theme_variant = "Dark"
+
+[window.dimensions]
+columns = 100
+lines = 30
+
+[window.class]
+instance = "Alacritty"
+general = "Alacritty"
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[colors.primary]
+background = '0x0a0c10'
+foreground = '0xf0f3f6'
+
+[colors.normal]
+black = '0x7a828e'
+red = '0xff9492'
+green = '0x26cd4d'
+yellow = '0xf0b72f'
+blue = '0x71b7ff'
+magenta = '0xcb9eff'
+cyan = '0x39c5cf'
+white = '0xd9dee3'
+
+[colors.bright]
+
+black = '0x9ea7b3'
+red = '0xffb1af'
+green = '0x4ae168'
+yellow = '0xf7c843'
+blue = '0x91cbff'
+magenta = '0xcb9eff'
+cyan = '0x39c5cf'
+white = '0xd9dee3'
+
+[font]
+size = 12
+
+[font.normal]
+family = "FiraCodeNerdFont"
+style = "Regular"
+
+[font.bold]
+family = "FiraCodeNerdFont"
+style = "Bold"
+
+[font.italic]
+family = "FiraCodeNerdFont"
+style = "Italic"
+
+[font.bold_italic]
+family = "FiraCodeNerdFont"
+style = "Bold Italic"
+
+[selection]
+semantic_escape_chars = ",│`|:\"' ()[]{}<>\t"
+save_to_clipboard = true
+
+[cursor]
+style = "Block"
+vi_mode_style = "None"
+unfocused_hollow = true
+thickness = 0.15
+
+[mouse]
+hide_when_typing = true
+
+[[mouse.bindings]]
+mouse = "Middle"
+action = "PasteSelection"
+
+[keyboard]
+[[keyboard.bindings]]
+key = "Paste"
+action = "Paste"
+
+[[keyboard.bindings]]
+key = "Copy"
+action = "Copy"
+
+[general]
+live_config_reload = true
+working_directory = "None"
