@@ -52,19 +52,19 @@ white = '0xd9dee3'
 size = 12
 
 [font.normal]
-family = "FiraCodeNerdFont"
+family = "BlexMonoNerdFont"
 style = "Regular"
 
 [font.bold]
-family = "FiraCodeNerdFont"
+family = "BlexMonoNerdFont"
 style = "Bold"
 
 [font.italic]
-family = "FiraCodeNerdFont"
+family = "BlexMonoNerdFont"
 style = "Italic"
 
 [font.bold_italic]
-family = "FiraCodeNerdFont"
+family = "BlexMonoNerdFont"
 style = "Bold Italic"
 
 [selection]

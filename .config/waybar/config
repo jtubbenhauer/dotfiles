@@ -2,9 +2,9 @@
 {
     "position": "top", // Waybar position (top|bottom|left|right)
     "height": 5, // Waybar height (to be removed for auto height)
-    "modules-left": ["hyprland/workspaces", "hyprland/window", "hyprland/mode", "custom/media"],
+    "modules-left": ["hyprland/workspaces", "hyprland/mode", "custom/media"],
     "modules-center": ["clock"],
-    "modules-right": ["pulseaudio","cpu","memory","battery", "battery#bat2", "clock", "tray"],
+    "modules-right": ["pulseaudio","cpu","memory","battery", "battery#bat2", "tray"],
     "hyprland/mode": {
         "format": "<span style=\"italic\">{}</span>"
     },
